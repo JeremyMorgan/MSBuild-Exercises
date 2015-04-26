@@ -1,61 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <PropertyGroup>
-    <Name>Homer</Name>
-    <PicsPath>C:\temp\pics\*.jpg</PicsPath>
-  </PropertyGroup>
+<Target Name="TargetA">
+	<Message Text="This is Target A" />
+	<CallTarget Targets="TargetB;TargetC" />
+</Target>
   
-<ItemGroup>
-  <Pics Include="$(PicsPath)" />
-</ItemGroup>
+<Target Name="TargetB">
+	<Message Text="This is Target B" />
+</Target>
 
-  <ItemGroup>
-      <Simpsons Include="Homer">
-      <CatchPhrase>Doh</CatchPhrase>  
-    </Simpsons>
-      <Simpsons Include="Marge">
-      <CatchPhrase>Mmmmmph</CatchPhrase>  
-    </Simpsons>
-      <Simpsons Include="Bart">
-      <CatchPhrase>Eat my shorts</CatchPhrase>  
-    </Simpsons>
-    <Simpsons Include="Lisa">
-      <CatchPhrase>Bart!</CatchPhrase>  
-    </Simpsons>
-    <Simpsons Include="Maggie">
-      <CatchPhrase>slurp, slurp, slurp</CatchPhrase>  
-    </Simpsons>
-  </ItemGroup>
-  
-  <Target Name="Processors">
-    <Message Text ="$(NUMBER_OF_PROCESSORS)" />  
-  </Target>  
-    
-  <Target Name ="ListSimpsons">
-    <Message Text ="@(Simpsons)"   />
-  </Target>
-    
-  <Target Name="ListPics">
-    
-  <Message Text="@(Pics)"></Message> 
-  <Message Text="@(Pics->'%(ModifiedTime)')"></Message> 
-  
-  </Target>
-  
-    
-  <Target Name="ReservedProps" >
-    <Message Text="MSBuildProjectDirectory : $(MSBuildProjectDirectory)" Importance="High"></Message>    
-  </Target>
-
-  
-  <Target Name="HelloWorld" >
-    <Message Text="Hello, $(name)" Importance="High"></Message>    
-  </Target>
-  
-   <Target Name="GoodbyeWorld" >
-    <Message Text="Goodbye, Cruel World" Importance="High"></Message>    
-  </Target>
-  
-
+<Target Name="TargetC">
+	<Message Text="This is Target C" />
+</Target>
 </Project>
