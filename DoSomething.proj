@@ -3,18 +3,6 @@
 
   <PropertyGroup>
     <DoIt>foo</DoIt>
-  </PropertyGroup>
-  
-<Target Name="TargetA" DependsOnTargets="TargetC">
-	<Message Text="This is Target A" />
-</Target>
-  
-<Target Name="TargetB">
-	<Message Text="This is Target B" />
-</Target>
-  
+  </PropertyGroup>  
 
-<Target Name="TargetC" Condition="$(DoIt) == foo">
-	<Message Text="This is Target C" />
-</Target>
 </Project>
