@@ -6,3 +6,4 @@
     <last>Griffin</last>
     <fullname>$(first) $(last)</fullname>
   </PropertyGroup>
+</Project>
