@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Import Project="Common.targets" />
+<Import Project="Common.props" />
+<Import Project="PsTasks.tasks" />
 
-  <Import Project="Common.targets" />
-  <Import Project="Common.props" />
-
-  <Target Name="EnterHere" DependsOnTargets="TargetA">
-    
-    <Message Text="Entry Point" />
-    <Message Text="Hello, $(FullName)" />
-  </Target> 
+	<Target Name="Math">
+		<Add2Numbers Number1="3" Number2="10">
+			<Output TaskParameter="Result" PropertyName="Sum" />
+		</Add2Numbers>
+	<Message Text="The sum is $(Sum)" />	
+	</Target>
 
 </Project>
