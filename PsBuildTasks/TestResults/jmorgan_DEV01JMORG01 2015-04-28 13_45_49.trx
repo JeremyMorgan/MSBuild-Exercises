@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ed02470a-6ec9-47c6-b6dc-f3b93a4d14c6" name="jmorgan@DEV01JMORG01 2015-04-28 13:45:49" runUser="EIDPASSPORT\jmorgan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fd312609-fa16-40cf-b06b-735bc588e930">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jmorgan_DEV01JMORG01 2015-04-28 13_45_49">
+      <DeploymentItem filename="c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tasks\bin\Debug\Pluralsight.MSBuild.Tasks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-28T13:45:49.1956508-07:00" queuing="2015-04-28T13:45:50.3466508-07:00" start="2015-04-28T13:45:50.3836508-07:00" finish="2015-04-28T13:46:10.2446508-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEV01JMORG01" outcome="Error" timestamp="2015-04-28T13:46:10.2446508-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\jmorgan\documents\visual studio 2010\projects\psbuildtasks\pluralsight.msbuild.tests\bin\debug\pluralsight.msbuild.tests.dll" id="2a582d7c-f75f-ee9f-7bea-2c63f27642bc">
+      <Execution id="e546bee0-5bb1-42d4-a8c8-cb18f8c22f66" />
+      <TestMethod codeBase="c:/users/jmorgan/documents/visual studio 2010/Projects/PsBuildTasks/Pluralsight.MSBuild.Tests/bin/Debug/Pluralsight.MSBuild.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pluralsight.MSBuild.Tests.UnitTest1, Pluralsight.MSBuild.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a582d7c-f75f-ee9f-7bea-2c63f27642bc" executionId="e546bee0-5bb1-42d4-a8c8-cb18f8c22f66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e546bee0-5bb1-42d4-a8c8-cb18f8c22f66" testId="2a582d7c-f75f-ee9f-7bea-2c63f27642bc" testName="TestMethod1" computerName="DEV01JMORG01" duration="00:00:19.8350000" startTime="2015-04-28T13:45:50.4096508-07:00" endTime="2015-04-28T13:46:10.2446508-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e546bee0-5bb1-42d4-a8c8-cb18f8c22f66">
+    </UnitTestResult>
+  </Results>
+</TestRun>

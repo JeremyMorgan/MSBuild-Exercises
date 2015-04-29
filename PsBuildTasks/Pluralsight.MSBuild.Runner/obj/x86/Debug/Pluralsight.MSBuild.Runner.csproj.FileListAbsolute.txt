@@ -1,0 +1,8 @@
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\bin\Debug\Pluralsight.MSBuild.Runner.exe
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\bin\Debug\Pluralsight.MSBuild.Runner.pdb
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\obj\x86\Debug\Pluralsight.MSBuild.Runner.csprojResolveAssemblyReference.cache
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\obj\x86\Debug\Pluralsight.MSBuild.Runner.exe
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\obj\x86\Debug\Pluralsight.MSBuild.Runner.pdb
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\bin\Debug\Pluralsight.MSBuild.Runner.exe.config
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\bin\Debug\Pluralsight.MSBuild.Tasks.dll
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Runner\bin\Debug\Pluralsight.MSBuild.Tasks.pdb

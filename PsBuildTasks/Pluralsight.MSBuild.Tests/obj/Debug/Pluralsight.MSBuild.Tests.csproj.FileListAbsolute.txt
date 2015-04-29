@@ -1,0 +1,7 @@
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\obj\Debug\Pluralsight.MSBuild.Tests.csprojResolveAssemblyReference.cache
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\bin\Debug\Pluralsight.MSBuild.Tests.dll
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\bin\Debug\Pluralsight.MSBuild.Tests.pdb
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\bin\Debug\Pluralsight.MSBuild.Tasks.dll
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\bin\Debug\Pluralsight.MSBuild.Tasks.pdb
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\obj\Debug\Pluralsight.MSBuild.Tests.dll
+c:\users\jmorgan\documents\visual studio 2010\Projects\PsBuildTasks\Pluralsight.MSBuild.Tests\obj\Debug\Pluralsight.MSBuild.Tests.pdb
